@@ -9,11 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Operating Systems
 ======
-* B.S. in Nothing u
-* M.S. in Dealing with Shit
-* Ph.D in Not Caring I'm a geek
+* Windows Server NT 4
+* Windows Server 2000
+* Windows Server 2003
+* Windows Server 2008
+* Windows Server 2012
+* Windows Server 2016
+* RHEL 6
+* RHEL 7
+* Ubuntu 
 
 Work experience
 ======
