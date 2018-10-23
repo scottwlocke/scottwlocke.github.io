@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Nothing
+* B.S. in Nothing u
 * M.S. in Dealing with Shit
 * Ph.D in Not Caring I'm a geek
 
