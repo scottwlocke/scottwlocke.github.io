@@ -9,6 +9,7 @@
 locale                   : "en-US"
 title                    : "Scott W Locke"
 title_separator          : "-"
+color_theme              : dark
 name                     : &name "Scott W Locke"
 description              : &description "Windows System Administrator and PowerShell fanboy"
 url                      : https://scottwlocke.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
