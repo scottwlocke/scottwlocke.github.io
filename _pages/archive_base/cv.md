@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * B.S. in Nothing
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Dealing with Shit
+* Ph.D in Not Caring I'm a geek
 
 Work experience
 ======
