@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+This is work in progress
+TODO: remove personal data while maintaining skills and experience infromation
+
 Operating Systems
 ======
 * Windows Server NT 4
