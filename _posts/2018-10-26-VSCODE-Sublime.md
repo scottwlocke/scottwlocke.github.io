@@ -6,7 +6,7 @@ comments: true
 tags:
   - VS Code
   - Sublime
-  - category2
+
 ---
 
 Going to try and compare and contrast Visual Studio Code and Sublime.  Focusing on functionality and performance
