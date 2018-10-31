@@ -15,8 +15,5 @@ main:
   - title: "CV"
     url: /cv/
 
- - title: "PowerShell"
-   url: /PowerShell/
-
-  - title: "Guide"
-    url: /markdown/
+  - title: "PowerShell"
+    url: /PowerShell/
