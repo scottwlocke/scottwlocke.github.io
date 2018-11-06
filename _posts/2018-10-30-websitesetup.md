@@ -5,7 +5,7 @@ permalink: /posts/2018/10/websitesetup/
 tags:
   - web
 ---
-<img src="{{ site.url }}{{ site.baseurl }}/images/image-alignment-150x150.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/vscode.png" alt="VS Code">
 
 Deciding to go with a flat file based website using Jekkyl and the themes available
 for it.  Using Markdown and GitHub pages to produce content without the risk of an
