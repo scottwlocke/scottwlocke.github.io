@@ -53,4 +53,4 @@ Teaching
   
 Service and leadership
 ======
-* I stayed at a Holiday Express more than one evening.
+* I stayed at a Holiday Inn Express more than one evening.
