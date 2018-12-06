@@ -19,6 +19,7 @@ Operating Systems
 * Windows Server 2019 - Here we go again, what a journey.
 * RedHat, CentOS, Ubuntu
 * FreeBSD, pfSense 
+
 Technical Skills
 =====
 * Automation of the Mundane and non-Value Add tasks of IT
