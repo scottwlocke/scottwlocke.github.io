@@ -15,13 +15,14 @@ TODO: remove personal data while maintaining skills and experience infromation
 Operating Systems
 ======
 * Windows Server NT 4, Windows Server 2000, Windows Server 2003
-* Windows Server 2008
-* Windows Server 2012
-* Windows Server 2016
+* Windows Server 2008, Windows Server 2012, Windows Server 2016
 * Windows Server 2019 - Here we go again, what a journey.
 * RedHat, CentOS, Ubuntu
 * FreeBSD, pfSense 
-
+Technical Skills
+=====
+* Automation of the Mundane and non-Value Add tasks of IT
+* PowerShell, Vbscript, Bash
 Work experience
 ======
 
