@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 This is work in progress
-TODO: remove personal data while maintaining skills and experience infromation
+TODO: remove personal data while maintaining skills and experience
 
 Operating Systems
 ======
@@ -31,7 +31,7 @@ Work experience
   
 Skills
 ======
-
+* Learning the things that need known, when there isn't a budget for training.
 
 Publications
 ======
