@@ -14,36 +14,21 @@ TODO: remove personal data while maintaining skills and experience infromation
 
 Operating Systems
 ======
-* Windows Server NT 4
-* Windows Server 2000
-* Windows Server 2003
+* Windows Server NT 4, Windows Server 2000, Windows Server 2003
 * Windows Server 2008
 * Windows Server 2012
 * Windows Server 2016
-* RHEL 6
-* RHEL 7
-* Ubuntu 
+* Windows Server 2019 - Here we go again, what a journey.
+* RedHat, CentOS, Ubuntu
+* FreeBSD, pfSense 
 
 Work experience
 ======
-* Summer 1775: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
 
 Publications
 ======
