@@ -24,6 +24,7 @@ Technical Skills
 =====
 * Automation of the Mundane and non-Value Add tasks of IT
 * PowerShell, Vbscript, Bash
+
 Work experience
 ======
 
