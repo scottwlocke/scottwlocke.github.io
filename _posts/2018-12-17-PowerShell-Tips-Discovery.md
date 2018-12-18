@@ -19,7 +19,7 @@ Remember, PowerShell cmdlets are always in the VERB-NOUN format.
  Ctrl - and Ctrl + controls font size.
  Finds a random command that is installed and shows help in a window
 
-```PowerShell
+```powershell
 Get-command | get-random | Get-Help -ShowWindow
 ```
 
