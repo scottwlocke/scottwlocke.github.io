@@ -1,5 +1,5 @@
 ---
-title: 'PowerShell Tipss Discovery'
+title: 'PowerShell Tips - Discovery'
 date: 2018-12-17
 permalink: /posts/2018/12/Tips/
 tags:
@@ -9,9 +9,9 @@ tags:
 
 ---
 
-### PowerShell Tips
----
-I would recommend running Windows PowerShell 5.1.  The only time you need to watch is with some of the older Microsoft products like Exchange and Sharepoint could have issues.  So be sure to read the README.  You can get it by installing [WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
+### PowerShell Tips - Discovery
+
+PowerShell is all about Discovery.  I would recommend running Windows PowerShell 5.1.  The only time you need to watch is with some of the older Microsoft products like Exchange and Sharepoint could have issues.  So be sure to read the README.  You can get it by installing [WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
 
 Remember, PowerShell cmdlets are always in the VERB-NOUN format.
 
