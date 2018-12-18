@@ -16,7 +16,7 @@ PowerShell is all about Discovery.  I would recommend running Windows PowerShell
 Remember, PowerShell cmdlets are always in the VERB-NOUN format.
 
 #### Command of the Day
- Ctrl - and Ctrl + controls font size.
+ > Ctrl - and Ctrl + controls font size.
  Finds a random command that is installed and shows help in a window
 
 ```powershell
@@ -62,7 +62,7 @@ Get-Help -Name about_*
 
 #### Show what type of object is outputted by a command
 
-userful for find what properties are available but not exposed by the default formatting that is display
+> Useful to find what properties are available but not exposed by the default formatting that is display.  Sending a command to a variable also helps to explore the options.
 
 ```powershell
 Get-SMBShare | Get-Member
