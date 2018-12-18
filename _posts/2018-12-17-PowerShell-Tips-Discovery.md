@@ -25,37 +25,37 @@ Get-command | get-random | Get-Help -ShowWindow
 
 #### Updating installed help files
 
-```PowerShell
+```powershell
 Update-Help -Force
 ```
 
 #### Show installed Module and location
 
-```PowerShell
+```powershell
 Get-Module -ListAvailable | select name, path
 ```
 
 #### Find commands in a module by name
 
-```PowerShell
+```powershell
 Get-Command -Module MODULENAME
 ```
 
 #### Find a command that has a noun in it
 
-```PowerShell
+```powershell
 Get-Command -Noun *CSV*
 ```
 
 #### Show all the about topics with description
 
-```PowerShell
+```powershell
 Get-Help -Name about_*
 ```
 
 ### Show all commands installed, show total count
 
-```PowerShell
+```powershell
 (Get-Command).Name
 (Get-Command).Count
 ```
@@ -64,13 +64,13 @@ Get-Help -Name about_*
 
 userful for find what properties are available but not exposed by the default formatting that is display
 
-```PowerShell
+```powershell
 Get-SMBShare | Get-Member
 ```
 
 #### Show what Type of Object is returned
 
-```PowerShell
+```powershell
 #Returns an array of Share Objects
 $Share = Get-SMBShare
 
