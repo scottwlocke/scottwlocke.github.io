@@ -11,6 +11,8 @@ tags:
 
 ### PowerShell Tips - Discovery
 
+Just goofing to show what Git can do
+
 PowerShell is all about Discovery.  I would recommend running Windows PowerShell 5.1.  The only time you need to watch is with some of the older Microsoft products like Exchange and Sharepoint could have issues.  So be sure to read the README.  You can get it by installing [WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
 
 Remember, PowerShell cmdlets are always in the VERB-NOUN format.
