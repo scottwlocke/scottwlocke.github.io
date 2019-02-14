@@ -1,7 +1,7 @@
 ---
 title: 'PowerShell: Measuring runtimes execution'
 date: 2019-2-13
-permalink: /posts/2019/2/13/PowerShell-Measure-Runtime.md
+permalink: /posts/2019/2/13/PowerShell-Measure-Runtime/
 comments: true
 tags:
   - Powershell
