@@ -22,7 +22,7 @@ $Timer.Start()
 # Run some more Code
 $Timer.Stop()
 $Timer.Elapsed.Seconds
-````
+
 
 These are the properties exposed from the Elapsed method
 
@@ -37,3 +37,5 @@ TotalHours        : 0.00578249938888889
 TotalMinutes      : 0.346949963333333
 TotalSeconds      : 20.8169978
 TotalMilliseconds : 20816.9978
+
+````
