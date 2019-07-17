@@ -24,7 +24,7 @@ $Timer.Start()
 $Timer.Stop()
 $Timer.Elapsed.Seconds
 
-```
+```powershell
 
 These are the properties exposed from the Elapsed method
 
