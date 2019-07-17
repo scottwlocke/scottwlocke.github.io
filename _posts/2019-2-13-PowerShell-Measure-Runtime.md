@@ -1,5 +1,5 @@
 ---
-title: 'PowerShell: Measuring runtimes execution'
+title: 'PowerShell: Measuring Runtimes Execution'
 date: 2019-2-13
 permalink: /posts/2019/2/13/PowerShell-Measure-Runtime/
 comments: true
@@ -41,3 +41,4 @@ TotalSeconds      : 20.8169978
 TotalMilliseconds : 20816.9978
 
 ````
+
