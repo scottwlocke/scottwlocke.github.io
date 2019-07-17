@@ -13,6 +13,7 @@ tags:
 PowerShell has a very useful object, the Diagnostics stopwatch.  You can create one by the following
 
 ```powershell
+
 $Timer = [System.Diagnostics.Stopwatch]::StartNew()
 
 # Run some code
@@ -23,6 +24,7 @@ $Timer.Start()
 $Timer.Stop()
 $Timer.Elapsed.Seconds
 
+```
 
 These are the properties exposed from the Elapsed method
 

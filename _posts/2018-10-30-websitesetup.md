@@ -12,10 +12,13 @@ for it.  Using Markdown and GitHub pages to produce content without the risk of 
 out of date plugin making your site vulnerable to attack is interesting.
 
 ## Markdown
-Still need to practice with using Markdown.  There are a lot of benifits
+
+Still need to practice with using Markdown.  There are a lot of benefits
+
 - Easily converted to other formats
 - No need for a full editor other than text
 
 ### Things to learn
+
 - Inline Images for documentation
 - Advanced tricks and techniques.
