@@ -10,4 +10,6 @@ redirect_from:
 
 This will be my public facing website for code that I post in [Scott W Locke Repository](https://github.com/scottwlocke) and hosted on GitHub pages. [GitHub pages](https://pages.github.com)
 
-Most will be PowerShell related in the area of Infrastructure and automation.  Currently most will be Windows PowerShell related, but plans are to do more with PowerShell Core and cross platform solutions.
+Most will be PowerShell related in the area of Infrastructure and automation.  Currently most will be Windows PowerShell related, but plans are to do more with PowerShell Core and cross platform solutions.  
+
+The site is done using Jekyll and Ubuntu running on WSL 2.  This allows for local development and viewing before pushing to Github.
