@@ -1,7 +1,7 @@
 baseURL = 'https://scottwlocke.github.io/'
 languageCode = 'en-us'
-title = 'Scott Walter locke'
-theme = "devise"
+title = 'Scott Walter Locke'
+theme = "hugo-coder"
 
 relativeURLs = true
 enableEmoji = true
