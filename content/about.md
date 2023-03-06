@@ -2,6 +2,7 @@
 title: "About"
 date: 2023-03-05T22:53:05-05:00
 draft: false
+tags: ['about']
 ---
 
 # Scott W Locke
