@@ -35,7 +35,7 @@ copyright = "&copy; 2023, Scott Walter Locke"
   description = "Your meta description"      # Your meta description of the site
   header_title = "Scott Walter Locke"                 # Your header title
   header_subtitle = "Systems Engineer / Platform Engineer" # Your header subtitle
-  home_image = "/assets/avatar.png"          # Path to header image starting from the static directory
+  home_image = "/images/avatar.png"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
   [params.style]                             # CSS style overrides
