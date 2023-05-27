@@ -18,3 +18,5 @@ Automation using PowerShell
 Azure Active Directory
 CIS Compliance
 Declaritive Administration with DSC, Ansible, Puppet
+Infrastructure as Code with GIT
+
