@@ -76,6 +76,12 @@ enableMissingTranslationPlaceholders = false
         weight = 1
         identifier = 'home'
         pre = "<i class='fa fa-heart'></i>&nbsp;"
+    [[menu.main]]
+        name = "Posts"
+        url = "/"
+        weight = 1
+        identifier = 'home'
+        pre = "<i class='fa fa-heart'></i>&nbsp;"
 
     # [[menu.main]]
     #     name = "Twitter"
