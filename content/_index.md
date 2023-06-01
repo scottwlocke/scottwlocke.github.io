@@ -9,11 +9,13 @@ images:
 - images/pexels-photo-196666.jpeg
 ---
 
-## Hugo Techdoc Theme
+## Scott W Locke
 
-## The Techdoc is a Hugo Theme for technical documentation
+Technical documentation for things I'm interested in
 
-## Features
+## TechDoc Theme with HUGO
+
+Will be learning some of this as I customize the example site.
 
 * Modern, Simple layout
 * Responsive web design
