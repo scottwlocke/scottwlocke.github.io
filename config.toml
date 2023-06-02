@@ -33,8 +33,7 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 IsMultiLangual = false
-defaultContentLanguage = pt-pt
-
+#defaultContentLanguage = en-en
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
