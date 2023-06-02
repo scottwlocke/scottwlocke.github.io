@@ -203,6 +203,7 @@ IsMultiLangual = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/"
+    icon = "fa-solid fa-envelope"
 
   # [[params.social]]
   #   name = "stackoverflow"
