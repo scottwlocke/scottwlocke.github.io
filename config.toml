@@ -133,7 +133,7 @@ IsMultiLangual = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.fontAwesome]
-    KitURL = https://kit.fontawesome.com/KitID.js
+    KitURL = "https://kit.fontawesome.com/KitID.js"
 
   [params.footer]
     trademark = true
@@ -191,10 +191,10 @@ IsMultiLangual = false
     # name = "twitter"
     # url  = "https://twitter.com/"
 
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-    icon = fa-solid fa-envelope
+  # [[params.social]]
+  #   name = "email"
+  #   url  = "mailto:nobody@example.com"
+  #   icon = fa-solid fa-envelope
 
   [[params.social]]
     name = "github"
