@@ -1,5 +1,5 @@
 baseURL = "https://scottwlocke.github.io/"
-title   = "Scott W Locke"
+title   = "Scott  Locke"
 languageCode = "en-us"
 theme = "hello-4s3ti"
 
@@ -66,7 +66,7 @@ IsMultiLangual = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Scott W Locke"
+  homeSubtitle = "Technology, DevOps, Automation"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
