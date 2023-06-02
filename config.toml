@@ -1,132 +1,240 @@
-baseURL = 'https://scottwlocke.github.io/'
-
+baseURL = "https://scottwlocke.github.io/"
+title   = "Scott W Locke"
 languageCode = "en-us"
-DefaultContentLanguage = "en"
-title = "Scott Locke Technical Docs"
-theme = "hugo-theme-techdoc"
+theme = "hello-4s3ti"
 
-hasCJKLanguage = true
-metaDataFormat = "yaml"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= false
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
 enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+IsMultiLangual = false
+defaultContentLanguage = pt-pt
+
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Scott W Locke"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
 [params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  
+  # Metadata mostly used in document's head
+  # 
+  description = "Scott W Locke"
+  keywords = ""
+  images = [""]
 
-    # Source Code repository section
-    description = "Documentation about Data Center Automation"
-    github_repository = "https://github.com/scottwlocke/Automation"
-    version = "0.9.9"
+  # Home page title
+  homeTitle = "Scott W Locke"
 
-    # Documentation repository section
-    # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
-    github_doc_repository_path = ""
+  # Home subtitle of the index page.
+  #
+  homeSubtitle = "Scott W Locke"
 
-    # Analytic section
-    google_analytics_id = "" # Your Google Analytics tracking id
-    tag_manager_container_id = "" # Your Google Tag Manager container id
-    google_site_verification = "" # Your Google Site Verification for Search Console
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
+  
+  # Adds a dark overlay over the background
+  backgroundEffects = true
 
-    # Open Graph and Twitter Cards settings section
-    # Open Graph settings for each page are set on the front matter.
-    # See https://gohugo.io/templates/internal/#open-graph
-    # See https://gohugo.io/templates/internal/#twitter-cards
-    title = "Hugo Techdoc Theme"
-    images = ["images/og-image.png"] # Open graph images are placed in `static/images`
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
 
-    # Theme settings section
-    # Theme color
-    # See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
-    custom_font_color = "black"
-    custom_background_color = "orange"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
+  
+  # Sets the default theme
+  defaultTheme = "dark"
 
-    # Documentation Menu section
-    # Menu style settings
-    menu_style = "open-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
 
-    # Date format
-    dateformat = "" # default "2 Jan 2006"
-    # See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
 
-    # path name excluded from documentation menu
-    menu_exclusion = [
-        "archives",
-        "archive",
-        "blog",
-        "entry",
-        "post",
-        "posts",
+  # Global language menu
+  #
+  # Enables the global language menu.
+  #
+  enableGlobalLanguageMenu = true
+
+  # Shows Posts on the front/Home page
+  showPosts = true
+
+  # Shows the ReadMore button in text instead
+  ReadmoreText = true
+
+  # Hides ReadMore
+  hideReadMore = false
+
+  # Shows reding time
+  ShowReadingTime = true
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.fontAwesome]
+    KitURL = https://kit.fontawesome.com/KitID.js
+
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+
+    # Shows social icons on footer instead of main page
+    socialIcons = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
     ]
 
-    # Algolia site search section
-    # See https://www.algolia.com/doc/
-    algolia_search_enable = true
-    algolia_indexName = "hugo-demo-techdoc"
-    algolia_appId = "7W4SAN4PLK"
-    algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
 
-# Global menu section
-# See https://gohugo.io/content-management/menus/
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  # [params.portrait]
+  #   path     = "/img/image.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
+
+  # Social icons
+  # [[params.social]]
+    # name = "twitter"
+    # url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
+    icon = fa-solid fa-envelope
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
+
+  # [[params.social]]
+  #   name = "stackoverflow"
+  #   url  = "https://www.stackoverflow.com/"
+
+[languages]
+  [languages.en]
+    subtitle  = "Hello 4s3ti Theme"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.fr]
+    subtitle  = "Hello 4s3ti Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
 [menu]
-    [[menu.main]]
-        name = "Home"
-        url = "/"
-        weight = 1
-        identifier = 'home'
-        pre = "<i class='fa fa-heart'></i>&nbsp;"
-    [[menu.main]]
-        name = "Posts"
-        url = "/"
-        weight = 1
-        identifier = 'home'
-        pre = "<i class='fa fa-heart'></i>&nbsp;"
-
-    # [[menu.main]]
-    #     name = "Twitter"
-    #     url = "https://twitter.com/thingsym"
-    #     weight = 2
-    #     identifier = 'twitter'
-    #     pre = "<b>pre!</b> "
-    #     post = " <b>post!</b>"
-    #     [menu.main.params]
-    #       class = 'twitter-menu-item'
-
-# Markup configure section
-# See https://gohugo.io/getting-started/configuration-markup/
-[markup]
-    defaultMarkdownHandler = "goldmark"
-    [markup.goldmark.renderer]
-        unsafe= true
-    [markup.tableOfContents]
-        startLevel = 2
-        endLevel = 6
-        ordered = false
-
-[outputs]
-    home = ["HTML", "RSS", "Algolia"]
-
-# Algolia Search configure section
-[outputFormats.Algolia]
-    baseName = "algolia"
-    mediaType = "application/json"
-    isPlainText = true
-    notAlternative = true
-
-[params.algolia]
-    vars = [
-        "title",
-        "summary",
-        "content",
-        "date",
-        "publishdate",
-        "description",
-        "permalink",
-        "keywords",
-        "lastmod",
-    ]
-    params = [
-        "tags",
-        "categories",
-    ]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "tools"
+    name       = "Tools"
+    url        = "#"
+  [[menu.main]]
+    identifier = "sometool"
+    name       = "SomeTool"
+    url        = "#"
+    parent     = "tools"
