@@ -224,11 +224,11 @@ IsMultiLangual = false
     name       = "Posts"
     url        = "posts/"
   [[menu.main]]
-    identifier = "Links"
+    identifier = "xLinks"
     name       = "Links"
     url        = "#"
   [[menu.main]]
     identifier = "sometool"
-    name       = "SomeTool"
+    name       = "GitHub"
     url        = "https://www.github.com"
-    parent     = "Links"
+    parent     = "xLinks"

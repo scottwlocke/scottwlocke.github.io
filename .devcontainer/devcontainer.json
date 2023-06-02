@@ -28,7 +28,13 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"bungcip.better-toml",
-				"davidanson.vscode-markdownlint"
+				"davidanson.vscode-markdownlint",
+				"waderyan.gitblame",
+				"aaron-bond.better-comments",
+				"ms-azuretools.vscode-docker",
+				"DavidAnson.vscode-markdownlint",
+				"dbaeumer.vscode-eslint",
+				"golang.go"
 			]
 		}
 	},
