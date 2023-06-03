@@ -219,6 +219,7 @@ IsMultiLangual = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+    weight     = 5
   [[menu.main]]
     identifier = "xLinks"
     name       = "Links"
@@ -230,5 +231,6 @@ IsMultiLangual = false
     parent     = "xLinks"
   [[menu.main]]
     identifier = "about"
-    name       = "xAbout"
+    name       = "About"
     url        = "about/"
+    weight     = 10
