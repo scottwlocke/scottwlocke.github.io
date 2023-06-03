@@ -1,4 +1,5 @@
 {
-    "editor.fontFamily": "MesloLGM NF",
-    "terminal.integrated.fontFamily": "MesloLGM NF"
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code"
 }
