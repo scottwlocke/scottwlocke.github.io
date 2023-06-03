@@ -15,3 +15,12 @@ tags:
 - Consistent Environment stored with Project
 - Customize Extensions for VSCode
 - Customize Applications in Container using Docker File
+
+## Build
+
+Utilizing the Default Linux XXX XXX since this is the same one used for GitHub Codespaces.
+
+### Added to Container throught Features
+
+- Latest PowerShell
+- Common Utilities (Zsh and others)
