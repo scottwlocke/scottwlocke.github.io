@@ -30,6 +30,23 @@
 	"forwardPorts": [
 		1313
 	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.azurecli",
+				"ms-vscode.powershell",
+				"aaron-bond.better-comments",
+				"puppet.puppet-vscode",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml",
+				"golang.go",
+				"DavidAnson.vscode-markdownlint",
+				"GitHub.copilot",
+				"eamodio.gitlens",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
