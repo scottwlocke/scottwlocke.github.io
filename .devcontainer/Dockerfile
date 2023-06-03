@@ -24,7 +24,9 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
     echo ${ARCH} && \
     wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_Linux-${ARCH}.tar.gz && \
     tar xf ${VERSION}.tar.gz && \
-    mv hugo /usr/bin/hugo
+    mv hugo /usr/bin/hugo && \
+    curl -s https://ohmyposh.dev/install.sh | bash -s && \
+    echo "oh-my-posh init pwsh | Invoke-Expression" >> "/home/node/.config/powershell/Microsoft.PowerShell_profile.ps1"
 
 # Hugo dev server port
 EXPOSE 1313

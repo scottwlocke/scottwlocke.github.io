@@ -34,7 +34,9 @@
 				"ms-azuretools.vscode-docker",
 				"DavidAnson.vscode-markdownlint",
 				"dbaeumer.vscode-eslint",
-				"golang.go"
+				"golang.go",
+				"ms-vscode-remote.remote-ssh",
+				"ms-vscode.powershell"
 			]
 		}
 	},
