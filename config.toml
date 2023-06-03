@@ -164,9 +164,9 @@ IsMultiLangual = false
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+    logoCursorAnimate  = "2s"
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
@@ -181,10 +181,10 @@ IsMultiLangual = false
 
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  [params.portrait]
+     path     = "/assets/profile.png"
+     alt      = "Portrait"
+     maxWidth = "50px"
 
   # Social icons
   # [[params.social]]
@@ -210,16 +210,12 @@ IsMultiLangual = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello 4s3ti Theme"
+    subtitle  = ""
     weight    = 1
     copyright = ''
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
+   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
@@ -232,3 +228,7 @@ IsMultiLangual = false
     name       = "GitHub"
     url        = "https://www.github.com"
     parent     = "xLinks"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
