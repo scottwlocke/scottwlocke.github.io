@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Scott  Locke</title>
+        <link>https://scottwlocke.github.io/posts/</link>
+        <description>Recent content in Posts on Scott  Locke</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 02 Jun 2023 02:54:45 +0000</lastBuildDate>
+        <atom:link href="https://scottwlocke.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>First Post</title>
+            <link>https://scottwlocke.github.io/posts/2023/06/first-post/</link>
+            <pubDate>Fri, 02 Jun 2023 02:54:45 +0000</pubDate>
+            
+            <guid>https://scottwlocke.github.io/posts/2023/06/first-post/</guid>
+            <description>New Website Layout </description>
+            <content type="html"><![CDATA[<h2 id="new-website-layout">New Website Layout</h2>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
