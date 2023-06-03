@@ -221,14 +221,15 @@ IsMultiLangual = false
     url        = "posts/"
     weight     = 5
   [[menu.main]]
-    identifier = "xLinks"
+    identifier = "Links"
     name       = "Links"
     url        = "#"
+    weight     = 7
   [[menu.main]]
     identifier = "sometool"
     name       = "GitHub"
     url        = "https://www.github.com"
-    parent     = "xLinks"
+    parent     = "Links"
   [[menu.main]]
     identifier = "about"
     name       = "About"
