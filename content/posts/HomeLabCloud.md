@@ -16,3 +16,11 @@ tags:
 ---
 
 ## Article about developing a Home Labe with Cloud Presence
+
+### Points
+
+- Old Hardware to use
+- Free Subscriptions
+- VSCode and devcontainters
+- ProxMox free Virtualization
+- Free GitHub / Azure DevOps

@@ -21,4 +21,3 @@ There are some similarities to PowerShell DSC, but there are many more features 
 ### File Templating
 
 Puppet has a feature rich File Templating system.  This allows you to generate files with replacement of TAGS in the file template.  This is much easier than how I was familiar with doing things.  Instead of trying to generate a file, could have a file structure with TAGS where information would be replaced.
-
