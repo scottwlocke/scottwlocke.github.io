@@ -5,6 +5,13 @@ draft: true
 toc: false
 images:
 tags:
-  - untagged
+  - vscode, docker, containers
 ---
 
+## VSCode and Dev Containers
+
+### **Features**
+
+- Consistent Environment stored with Project
+- Customize Extensions for VSCode
+- Customize Applications in Container using Docker File
