@@ -230,5 +230,5 @@ IsMultiLangual = false
     parent     = "xLinks"
   [[menu.main]]
     identifier = "about"
-    name       = "1About"
+    name       = "xAbout"
     url        = "about/"
