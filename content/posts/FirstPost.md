@@ -5,7 +5,8 @@ draft: False
 toc: false
 images:
 tags:
-  - "First, Post"
+  - "First Post"
+  - "Another Tag"
 ---
 
 ## New Website Layout
