@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "MesloLGS NF",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "Fira Code"
+    "terminal.integrated.fontFamily": "MesloLGS NF"
 }
