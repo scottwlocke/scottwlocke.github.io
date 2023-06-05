@@ -45,7 +45,9 @@
 				"eamodio.gitlens",
 				"ms-azuretools.vscode-docker",
 				"github.vscode-github-actions",
-				"slevesque.vscode-zipexplorer"
+				"slevesque.vscode-zipexplorer",
+				"mhutchie.git-graph",
+				"johnpapa.vscode-peacock"
 			]
 		}
 	},
