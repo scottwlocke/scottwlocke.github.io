@@ -1,5 +1,4 @@
 {
-    "editor.fontFamily": "MesloLGS NF",
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
 }

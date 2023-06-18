@@ -1,63 +1,86 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/universal
+// README at: https://github.com/devcontainers/templates/tree/main/src/powershell
 {
-	"name": "Default Linux Universal",
+	"name": "PowerShell",
+	//"image": "mcr.microsoft.com/powershell:lts-debian-11",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 	"features": {
-		"ghcr.io/devcontainers/features/azure-cli:1": {
-			"installBicep": true,
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
-			"configureZshAsDefaultShell": true,
-			"installOhMyZsh": true,
+			"installOhMyZsh": false,
 			"upgradePackages": true,
 			"username": "vscode",
 			"userUid": "automatic",
 			"userGid": "automatic"
 		},
-		"ghcr.io/devcontainers/features/hugo:1": {
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers/features/powershell:1": {
-			"version": "latest"
+			"version": "latest",
+			"modules": "Terminal-Icons, posh-git"
+		},
+		"ghcr.io/devcontainers/features/terraform:1": {
+			"installSentinel": true,
+			"installTFsec": true,
+			"installTerraformDocs": true,
+			"version": "latest",
+			"tflint": "latest",
+			"terragrunt": "latest"
 		}
+		// "ghcr.io/devcontainers/features/azure-cli:1": {
+		// 	"installBicep": true,
+		// 	"version": "latest"
+		// }
 	},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
-		1313
-	],
+	// "remoteUser": "vscode",
+	"postCreateCommand": "sudo bash /tmp/startup.sh",
+	// "postAttachCommand": "pwsh -Command Clear-Host",
+	// Configure tool-specific properties.
 	"customizations": {
+		// Configure properties specific to VS Code.
 		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "pwsh",
+				"terminal.integrated.fontFamily": "MesloLGS NF",
+				"terminal.integrated.fontSize": 14,
+				"editor.cursorStyle": "underline",
+				"editor.cursorBlinking": "smooth",
+				"editor.formatOnPaste": true,
+				"editor.formatOnSave": true,
+				"azureResourceGroups.selectedSubscriptions": [
+					"Subscription HERE"
+				],
+			},
+			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"ms-vscode.azurecli",
 				"ms-vscode.powershell",
-				"aaron-bond.better-comments",
+				"hashicorp.terraform",
+				"ms-vscode.azure-account",
+				"ms-azuretools.vscode-azureterraform",
+				"ms-azuretools.vscode-docker",
+				"github.vscode-github-actions",
+				"GitHub.copilot",
+				"DavidAnson.vscode-markdownlint",
 				"puppet.puppet-vscode",
 				"redhat.vscode-xml",
 				"redhat.vscode-yaml",
-				"golang.go",
-				"DavidAnson.vscode-markdownlint",
-				"GitHub.copilot",
-				"eamodio.gitlens",
-				"ms-azuretools.vscode-docker",
-				"github.vscode-github-actions",
-				"slevesque.vscode-zipexplorer",
-				"mhutchie.git-graph",
-				"johnpapa.vscode-peacock"
+				"donjayamanne.githistory",
+				"waderyan.gitblame",
+				"codezombiech.gitignore",
+				"foxundermoon.shell-format",
+				"bierner.markdown-preview-github-styles",
+				"ms-azuretools.vscode-azurefunctions",
+				"ms-azuretools.vscode-azureresourcegroups",
+				"ms-azure-devops.azure-pipelines",
+				"ms-vscode.azurecli",
+				"ms-azuretools.vscode-bicep",
+				"ms-vscode.azure-repos"
 			]
 		}
-	},
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
+	}
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }

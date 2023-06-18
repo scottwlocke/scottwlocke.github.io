@@ -18,9 +18,15 @@ tags:
 
 ## Build
 
-Utilizing the Default Linux XXX XXX since this is the same one used for GitHub Codespaces.
+Utilizing Python Debian version.
 
 ### Added to Container throught Features
 
 - Latest PowerShell
 - Common Utilities (Zsh and others)
+
+### Added via Dockerfile
+
+- Oh-My-Posh for some Bling and Information
+- Nerd Fonts so can have some ligatures in Code and Terminal
+
