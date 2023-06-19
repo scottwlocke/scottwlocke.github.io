@@ -55,6 +55,10 @@
 			],
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "pwsh",
+				"debug.internalConsoleOptions": "neverOpen",
+				"terminal.integrated.profiles.linux": {
+					"JavaScript Debug Terminal": null
+				  },
 				"vale.valeCLI.path": "",
 				"vale.valeCLI.config": ""
 			}
