@@ -14,10 +14,10 @@ tags:
 
 ## Working with Puppet coming from a PowerShell background
 
-Puppet is a declaritive language written in Ruby.  
+Puppet is a declarative language written in Ruby.  
 It is one of the older Configuration platforms.
 There are some similarities to PowerShell DSC, but there are many more features than DSC provides.
 
-### File Templating
+### File template's
 
-Puppet has a feature rich File Templating system.  This allows you to generate files with replacement of TAGS in the file template.  This is much easier than how I was familiar with doing things.  Instead of trying to generate a file, could have a file structure with TAGS where information would be replaced.
+Puppet has a feature rich File template's system.  This allows you to generate files with replacement of TAGS in the file template.  This is much easier than how I was familiar with doing things.  Instead of trying to generate a file, could have a file structure with TAGS where information would be replaced.

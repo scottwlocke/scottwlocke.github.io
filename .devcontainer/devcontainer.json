@@ -30,7 +30,6 @@
 				"DavidAnson.vscode-markdownlint",
 				"ms-vscode.powershell",
 				"redhat.vscode-xml",
-				"redhat.vscode-yaml",
 				"chrischinchilla.vale-vscode",
 				"davidanson.vscode-markdownlint",
 				"docsmsft.docs-images",
@@ -48,16 +47,26 @@
 				"streetsidesoftware.code-spell-checker",
 				"tyriar.sort-lines",
 				"usernamehw.errorlens",
-				"wmaurer.change-case"
-			]
+				"wmaurer.change-case",
+				"GitHub.copilot",
+				"puppet.puppet-vscode",
+				"golang.go",
+				"gep13.chocolatey-vscode"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "pwsh",
+				"vale.valeCLI.path": "",
+				"vale.valeCLI.config": ""
+			}
 		}
-	}
+	},
+	//"postStartCommand": "vale sync",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [1313]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
