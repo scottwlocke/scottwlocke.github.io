@@ -1,8 +1,4 @@
-FROM mcr.microsoft.com/powershell:lts-debian-11
-
-# RUN apt-get update \
-#     apt-get -y install --no-install-recommends fontconfig \
-#     rm -rf /var/lib/apt/lists/*
-
-COPY startup.sh /tmp/startup.sh
-COPY library-scripts /tmp/library-scripts
+FROM mcr.microsoft.com/devcontainers/base:bookworm
+RUN wget https://github.com/errata-ai/vale/releases/download/v2.26.0/vale_2.26.0_Linux_64-bit.tar.gz && \
+    tar -xvzf vale_2.26.0_Linux_64-bit.tar.gz -C bin && \
+    export PATH=./bin:"$PATH"

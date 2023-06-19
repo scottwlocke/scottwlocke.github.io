@@ -1,86 +1,67 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/powershell
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
 {
-	"name": "PowerShell",
-	//"image": "mcr.microsoft.com/powershell:lts-debian-11",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
 	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
-			"installOhMyZsh": false,
 			"upgradePackages": true,
-			"username": "vscode",
+			"username": "automatic",
 			"userUid": "automatic",
 			"userGid": "automatic"
 		},
+		"ghcr.io/devcontainers/features/hugo:1": {
+			"extended": true,
+			"version": "latest"
+		},
 		"ghcr.io/devcontainers/features/powershell:1": {
 			"version": "latest",
-			"modules": "Terminal-Icons, posh-git"
-		},
-		"ghcr.io/devcontainers/features/terraform:1": {
-			"installSentinel": true,
-			"installTFsec": true,
-			"installTerraformDocs": true,
-			"version": "latest",
-			"tflint": "latest",
-			"terragrunt": "latest"
+			"modules": "Terminal-Icons,Documentarian,Documentarian.Vale,Documentarian.MicrosoftDocs,Documentarian.ModuleAuthor"
 		}
-		// "ghcr.io/devcontainers/features/azure-cli:1": {
-		// 	"installBicep": true,
-		// 	"version": "latest"
-		// }
 	},
-	// "remoteUser": "vscode",
-	"postCreateCommand": "sudo bash /tmp/startup.sh",
-	// "postAttachCommand": "pwsh -Command Clear-Host",
-	// Configure tool-specific properties.
 	"customizations": {
-		// Configure properties specific to VS Code.
 		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": {
-				"terminal.integrated.defaultProfile.linux": "pwsh",
-				"terminal.integrated.fontFamily": "MesloLGS NF",
-				"terminal.integrated.fontSize": 14,
-				"editor.cursorStyle": "underline",
-				"editor.cursorBlinking": "smooth",
-				"editor.formatOnPaste": true,
-				"editor.formatOnSave": true,
-				"azureResourceGroups.selectedSubscriptions": [
-					"Subscription HERE"
-				],
-			},
-			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"ms-vscode.powershell",
-				"hashicorp.terraform",
-				"ms-vscode.azure-account",
-				"ms-azuretools.vscode-azureterraform",
 				"ms-azuretools.vscode-docker",
-				"github.vscode-github-actions",
-				"GitHub.copilot",
 				"DavidAnson.vscode-markdownlint",
-				"puppet.puppet-vscode",
+				"ms-vscode.powershell",
 				"redhat.vscode-xml",
 				"redhat.vscode-yaml",
-				"donjayamanne.githistory",
-				"waderyan.gitblame",
-				"codezombiech.gitignore",
-				"foxundermoon.shell-format",
-				"bierner.markdown-preview-github-styles",
-				"ms-azuretools.vscode-azurefunctions",
-				"ms-azuretools.vscode-azureresourcegroups",
-				"ms-azure-devops.azure-pipelines",
-				"ms-vscode.azurecli",
-				"ms-azuretools.vscode-bicep",
-				"ms-vscode.azure-repos"
+				"chrischinchilla.vale-vscode",
+				"davidanson.vscode-markdownlint",
+				"docsmsft.docs-images",
+				"docsmsft.docs-linting",
+				"docsmsft.docs-markdown",
+				"docsmsft.docs-preview",
+				"docsmsft.docs-yaml",
+				"eamodio.gitlens",
+				"marvhen.reflow-markdown",
+				"ms-vscode.powershell",
+				"ms-vscode.wordcount",
+				"nhoizey.gremlins",
+				"redhat.vscode-yaml",
+				"shuworks.vscode-table-formatter",
+				"streetsidesoftware.code-spell-checker",
+				"tyriar.sort-lines",
+				"usernamehw.errorlens",
+				"wmaurer.change-case"
 			]
 		}
 	}
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
