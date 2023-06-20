@@ -11,7 +11,7 @@ hidelanguage = true
 
 ## Scott W Locke
 
-![targets](/profile.png)
+![targets](/profile.png "=150x")
 
 System Engineer, DevOps, PowerShell Developer
 
