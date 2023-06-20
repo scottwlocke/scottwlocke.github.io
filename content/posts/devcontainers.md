@@ -35,4 +35,4 @@ Utilizing a Dockerfile with Debian Bookworm version.  Also installing Vale for l
 
 Using the Meslo Nerd Font.  Needs to be configured in VS Code and installed on the OS VS Code is running from.  "MesloLGS NF" is the one that I chose that has the ligatures necessary for oh-my-posh to show icons.
 
-Took inspiration from the PowerShell Docs devcontainer to add additional linting and extensions to the devontainer.
+Took inspiration from the PowerShell Docs devcontainer to add additional linting and extensions to the devontainer.  Need to look into configuration of Vale with style guides that would work for blog.
