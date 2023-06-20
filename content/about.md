@@ -11,7 +11,7 @@ hidelanguage = true
 
 ## Scott W Locke
 
-{{ $image := resources.Get "profile.png" }}
+![targets](/profile.png)
 
 System Engineer, DevOps, PowerShell Developer
 
