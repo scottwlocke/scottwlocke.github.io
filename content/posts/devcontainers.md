@@ -9,8 +9,9 @@ tags:
   - docker
   - containers
 ---
+![PSLogo](../../assets/pslogo.png)
 
-VSCode and Dev Containers allow for a consistent development environment stored with Project.  Making it much easier to switch between devices and still have access to common tools.  
+ VSCode and Dev Containers allow for a consistent development environment stored with Project.  Making it much easier to switch between devices and still have access to common tools.  
 
 Ability to customize extensions for installed for VSCode in the devcontainer without being installed on your main system preventing clutter.  Oh-My-Posh provides for a customized prompt for not only PowerShell but also Bash and Zsh.
 
