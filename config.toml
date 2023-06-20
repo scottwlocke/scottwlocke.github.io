@@ -2,6 +2,7 @@ baseURL = "https://scottwlocke.github.io/"
 title   = "Scott  Locke"
 languageCode = "en-us"
 theme = "hello-4s3ti"
+staticDir = ['assets']
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
