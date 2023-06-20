@@ -1,11 +1,13 @@
 ---
-title: "Devcontainers"
+title: "Devcontainers in VS Code"
 date: 2023-06-03T00:16:39Z
-draft: true
+draft: false
 toc: false
 images:
 tags:
-  - vscode, docker, containers
+  - vscode
+  - docker
+  - containers
 ---
 
 ## VSCode and Dev Containers
@@ -18,15 +20,17 @@ tags:
 
 ## Build
 
-Utilizing Python Debian version.
+Utilizing a Dockerfile with Debian Bookworm version.  Also installing Vale for linting and Oh-My-Posh for syntax highlighting.
 
-### Added to Container throught Features
+### Added to Container through Features
 
 - Latest PowerShell
 - Common Utilities (Zsh and others)
+- Git
+- Git Cli
+- Hugo
+- Multiple VS Code Extensions
 
-### Added via Dockerfile
+### Nerd Font
 
-- Oh-My-Posh for some Bling and Information
-- Nerd Fonts so can have some ligatures in Code and Terminal
-
+Using the Meslo Nerd Font.  Needs to be configured in VS Code and installed on the OS VS Code is running from.
