@@ -9,7 +9,7 @@ tags:
   - docker
   - containers
 ---
-![PSLogo](../../assets/pslogo.png)
+![PSLogo](../images/pslogo.png)
 
  VSCode and Dev Containers allow for a consistent development environment stored with Project.  Making it much easier to switch between devices and still have access to common tools.  
 
