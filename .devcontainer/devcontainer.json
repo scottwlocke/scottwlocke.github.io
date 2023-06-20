@@ -59,8 +59,8 @@
 				"terminal.integrated.profiles.linux": {
 					"JavaScript Debug Terminal": null
 				  },
-				"vale.valeCLI.path": "",
-				"vale.valeCLI.config": ""
+				"vale.valeCLI.path": "/usr/bin/vale",
+				"vale.valeCLI.config": "/workspaces/scottwlocke.github.io/.vale.ini"
 			}
 		}
 	},
