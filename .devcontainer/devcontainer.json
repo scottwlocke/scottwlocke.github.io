@@ -64,8 +64,12 @@
 			],
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "pwsh",
-				"vale.valeCLI.path": "",
-				"vale.valeCLI.config": ""
+				"debug.internalConsoleOptions": "neverOpen",
+				"terminal.integrated.profiles.linux": {
+					"JavaScript Debug Terminal": null
+				  },
+				"vale.valeCLI.path": "/usr/bin/vale",
+				"vale.valeCLI.config": "/workspaces/scottwlocke.github.io/.vale.ini"
 			}
 		}
 	},
