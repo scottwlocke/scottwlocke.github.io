@@ -5,12 +5,18 @@
 		"dockerfile": "Dockerfile"
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/git:1": {
+			"ppa": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"installDirectlyFromGitHubRelease": true,
+			"version": "latest"
+		},
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
 			"upgradePackages": true,
-			"username": "automatic",
+			"username": "vscode",
 			"userUid": "automatic",
 			"userGid": "automatic"
 		},
@@ -19,8 +25,11 @@
 			"version": "latest"
 		},
 		"ghcr.io/devcontainers/features/powershell:1": {
-			"version": "latest",
-			"modules": "Terminal-Icons,Documentarian,Documentarian.Vale,Documentarian.MicrosoftDocs,Documentarian.ModuleAuthor"
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+			"installBicep": true,
+			"version": "latest"
 		}
 	},
 	"customizations": {
