@@ -23,7 +23,7 @@ Get-Module VMware.VimAutomation.Sdk -ListAvailable | ForEach-Object {
     }
 ```
 
-- **TODO:** Loop through Required and Nested
+- **TODO:** #3 Loop through Required and Nested
 
 - Get-Module returns System.Management.Automation.PSModuleInfo instance(s) describing the specified module(s).
 
@@ -31,3 +31,7 @@ Get-Module VMware.VimAutomation.Sdk -ListAvailable | ForEach-Object {
 
 - $_.RequiredModules lists the direct module dependencies
 - $_.NestedModules.RequiredModules those of any nested modules (which is presumably rare)
+
+## Unrelated
+
+Microsoft sbom-tool will create an SBOM from docker images
