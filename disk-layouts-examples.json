@@ -1,0 +1,37 @@
+{
+    "physical_disks": [
+        {
+            "id": "disk1",
+            "size": "100GB",
+            "type": "SSD"
+        },
+        {
+            "id": "disk2",
+            "size": "200GB",
+            "type": "HDD"
+        }
+    ],
+    "partitions": [
+        {
+            "id": "partition1",
+            "size": "50GB",
+            "type": "NTFS",
+            "mount_point": "/mnt/disk1"
+        },
+        {
+            "id": "partition2",
+            "size": "150GB",
+            "type": "EXT4",
+            "mount_point": "/mnt/disk2"
+        }
+    ]
+}
+
+{
+    "nfs_share": {
+        "ip_address": "192.168.0.1",
+        "shared_folder_name": "nfs",
+        "mount_point": "/mnt/nfs"
+    }
+}
+
