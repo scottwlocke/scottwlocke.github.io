@@ -6,4 +6,5 @@
         "devontainer",
         "Meslo"
     ],
+    "azureAutomation.directory.basePath": "",
 }
