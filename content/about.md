@@ -54,6 +54,3 @@ System Engineer, DevOps, PowerShell Developer
   - Pipelines
 
 ---
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
