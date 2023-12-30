@@ -1,11 +1,12 @@
-
+---
 title: "VMWare PowerCLI Identify Modules needed"
-date: 2023-06-02T03:03:04Z
+date: 2023-12-30T03:03:04Z
 draft: false
 toc: false
 images:
 tags:
-  - ['vmware','powershell']
+  - vmware
+  - powershell
 ---
 
 ## Minimal Modules for VMWare Automation (VMWare.PowerCLI 13+)
