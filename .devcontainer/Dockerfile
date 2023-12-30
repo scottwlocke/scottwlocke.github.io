@@ -32,3 +32,6 @@ RUN sed -i 's/^__bash_prompt$/#&/' /home/${USERNAME}/.bashrc && \
     echo "eval \"\$(oh-my-posh init bash --config $POSH_THEME)\"" >> /home/${USERNAME}/.bashrc; \
     # Override vscode's own ZSH prompt with oh-my-posh:
     echo "eval \"\$(oh-my-posh init zsh --config $POSH_THEME)\"" >> /home/${USERNAME}/.zshrc
+
+# Install Puppet Agent
+RUN apt update && apt install -y puppet-agent
