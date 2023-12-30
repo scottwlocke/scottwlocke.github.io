@@ -3,19 +3,14 @@
 {{ partial "header.html" . }}
 
 <body>
-	<div class="container wrapper list">
+	<div class="container wrapper tags">
 		{{ partial "head.html" . }}
 
-		{{ if isset .Data "Term" }}
-			<h2>{{ .Data.Term }}</h2>
-		{{ else }}
-		<h2 class="page-title">{{ .Name }}</h2>
-		{{ end }}
+		<h1 class="page-title">Tag: {{ .Title }}</h1>
 
+		{{ with (.Site.GetPage .Title) }}
 		<ul class="posts flat">
-			{{- range .Data.Pages -}}
-			{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
-			{{- else -}}
+			{{ range .Pages }}
 			<li class="post">
 				<div class="post-header">
 					<div class="meta">
@@ -40,9 +35,9 @@
 					</div>
 				</div>
 			</li>
-			{{- end -}}
-			{{- end -}}
+			{{ end }}
 		</ul>
+		{{ end }}
 	</div>
 
 	{{ partial "footer.html" . }}
