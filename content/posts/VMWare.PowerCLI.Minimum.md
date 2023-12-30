@@ -14,17 +14,17 @@ tags:
 Based on PS Gallery Listing of Dependencies for VMware.VimAutomation.Core which provides Connect-VIServer the following modules are required to connect to VSphere.
 
 - VMware.VimAutomation.Core
-    - VMware.Vim
-    - VMware.VimAutomation.Common
-    - VMware.VimAutomation.Sdk
+  - VMware.Vim
+  - VMware.VimAutomation.Common
+  - VMware.VimAutomation.Sdk
 
 ## Addtional Modules of Note
 
 - VMware.VimAutomation.Security
-    - Most of the VSphere Security Commands
+  - Most of the VSphere Security Commands
 - VMware.VimAutomation.Common
-    - Wait-Task
-    - Stop-Task
+  - Wait-Task
+  - Stop-Task
 
 ## Dirty Way to find Required Modules Based on Manifest
 
