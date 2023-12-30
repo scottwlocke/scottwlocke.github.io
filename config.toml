@@ -1,7 +1,7 @@
 baseURL = "https://scottwlocke.github.io/"
 title   = "Scott  Locke"
 languageCode = "en-us"
-theme = "hello-4s3ti"
+theme = "mainroad"
 staticDir = ['assets']
 
 PygmentsCodeFences = true
@@ -209,11 +209,7 @@ IsMultiLangual = false
   #   name = "stackoverflow"
   #   url  = "https://www.stackoverflow.com/"
 
-[languages]
-  [languages.en]
-    subtitle  = ""
-    weight    = 1
-    copyright = ''
+
 
 [menu]
    [[menu.main]]
