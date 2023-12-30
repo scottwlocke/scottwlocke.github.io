@@ -1,4 +1,14 @@
-# Minimal Modules for VMWare Automation (VMWare.PowerCLI 13+)
+
+title: "VMWare PowerCLI Identify Modules needed"
+date: 2023-06-02T03:03:04Z
+draft: false
+toc: false
+images:
+tags:
+  - ['vmware','powershell']
+---
+
+## Minimal Modules for VMWare Automation (VMWare.PowerCLI 13+)
 
 Based on PS Gallery Listing of Dependencies for VMware.VimAutomation.Core which provides Connect-VIServer the following modules are required to connect to VSphere.
 
