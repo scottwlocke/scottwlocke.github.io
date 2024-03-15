@@ -25,8 +25,7 @@
 								<a href="{{ .RelPermalink }}">{{.Title}}{{ if .Draft }}<sup
 										class="draft-label">DRAFT</sup>{{ end }}</a>
 							</h4>
-							{{ $wordCountNoCode := replaceRE `(?s)<div class="highlight">.*?</div>` "" .Content |
-							countwords }}
+
 							<h4 class="title small smaller">
 								{{ $wordCountNoCode | lang.FormatNumberCustom 0 }} words, ~{{ div $wordCountNoCode
 								.Site.Params.wpm
