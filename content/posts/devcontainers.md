@@ -19,7 +19,7 @@ Ability to customize extensions for installed for VSCode in the devcontainer wit
 
 Utilizing a Dockerfile with Debian Bookworm version.  Also installing Vale for linting and Oh-My-Posh for syntax highlighting.
 
-Make sure that any files that will be used in WSL with docker (Dockerfile, shell scripts) are encoded with LF format and not CRLF from Windows.   Failing to do so will cause the build to fail erracitcaly.
+Make sure that any files that will be used in WSL with docker (Dockerfile, shell scripts) are encoded with LF format and not CRLF from Windows.   Failing to do so will cause the build to fail with messages like file not found.
 
 ### Added to Container through Features
 
