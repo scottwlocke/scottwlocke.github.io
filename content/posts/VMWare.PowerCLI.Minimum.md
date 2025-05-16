@@ -18,7 +18,7 @@ Based on PS Gallery Listing of Dependencies for VMware.VimAutomation.Core which 
   - VMware.VimAutomation.Common
   - VMware.VimAutomation.Sdk
 
-## Addtional Modules of Note
+## Additional Modules of Note
 
 - VMware.VimAutomation.Security
   - Most of the VSphere Security Commands
