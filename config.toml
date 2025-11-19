@@ -1,7 +1,7 @@
 baseURL = "https://scottwlocke.github.io/"
 title   = "Scott W Locke"
 languageCode = "en-us"
-theme = "hello-4s3ti"
+theme = "hugo-PaperMod"
 staticDir = ['assets']
 
 
