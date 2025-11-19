@@ -1,7 +1,7 @@
 baseURL = "https://scottwlocke.github.io/"
 title   = "Scott  Locke"
 languageCode = "en-us"
-theme = "43sti"
+theme = "hello-43sti"
 staticDir = ['assets']
 
 PygmentsCodeFences = true
