@@ -1,12 +1,10 @@
-baseURL: 'https://4s3ti.net/'
+baseURL: 'https://blog.coolapso.sh/'
 languageCode: 'pt-pt'
 theme: "hello-friend-4s3ti"
-author: 
-  name: "4s3tidotnet"
-title: '4s3ti.net'
+title: 'blog.coolapso.sh'
 copyright: "All Rights Reserved"
 IsMultiLingual: true
-defaultContentLanguage: pt-pt
+defaultContentLanguage: en
 
 languages:
   pt-pt:
@@ -15,7 +13,7 @@ languages:
   en:
     weight: 2
     params: 
-      backgroundImage: "../assets/4s3tibg.gif"
+      backgroundImage: "../static/coolapso.webp"
     menu: 
       main:
         - identifier: "posts"
@@ -25,36 +23,40 @@ languages:
 
         - identifier: "about"
           name: "About"
-          url: "https://cv.4s3ti.net"
+          url: "#"
           weight: 2
 
         - identifier: "projects"
           name: "Projects"
           url: "/projects"
-        - identifier: "PiVPN"
-          name: "PiVPN"
-          url: "https://pivpn.io"
+        - identifier: "Project 1"
+          name: "Project 1"
+          url: "#"
           parent: "projects"
         - identifier: "tools"
           name: "Tools"
-        - identifier: "short"
-          name: "Short Links"
-          url: "https://s.4s3ti.net"
+        - identifier: "tool1"
+          name: "tool1"
+          url: "#"
           parent: "tools"
     #     weight: 10
-        - identifier: "wb"
-          name: "Whiteboard"
+        - identifier: "Tool2"
+          name: "tool2"
+          url: '#'
           parent: "tools"
 
 
 
 params:
+  version: "dev"
+  author: 
+    name: "coolapso"
   defaultTheme: "dark"
   EnableThemeToggle: true 
 # gitUrl: "https://github.com/4s3ti"
   EnableSharingButtons: true
   EnableGlobalLanguageMenu: true
-  backgroundImage: "assets/4s3tibg.gif"
+  backgroundImage: "static/coolapso.webp"
   backgroundEffects: true
   showPosts: true
   tags: true
@@ -64,30 +66,34 @@ params:
 # socialIcons: true
 # homeTitle: "Title"
 # homeSubtitle: "Subtitle"
-  fontAwesome:
-    KitURL: "https://kit.fontawesome.com/0ed5cec925.js"
+  fontAwesome: 
+    all: true
+    # brands: true
+    # solid: true
+    # regular: true
+    # kitURL: "https://kit.fontawesome.com/yourkitid.js"
   ShowReadingTime: true
   LastModDisplay: true
   tags: true
   logo:
-    logoText: "4s3ti.net"
+    logoText: "coolapso.sh"
     logoCursorColor: "#ffffff"
   social:
     - name: "github"
-      url: "https://github.com/4s3ti"
-    - name: "CV"
-      url: "https://cv.4s3ti.net"
+      url: "https://github.com/coolapso"
+    - name: "website"
+      url: "https://coolapso.sh"
       icon: fa-solid fa-terminal
     - name: "youtube"
-      url: "https://youtube.com/cfcolaco"
-    - name: "twitter"
-      url: "https://twitter.com/4s3ti/"
+      url: "https://youtube.com/@ccoolapso"
+    - name: "x-twitter"
+      url: "https://x.com/ccoolapso"
     - name: "instagram"
       url: "https://www.instagram.com/c4colaco/"
     - name: "twitch"
-      url: "https://twitch.tv/4s3ti"
+      url: "https://twitch.tv/cool4pso"
     - name: "Buy me a coffee"
-      url: "https://www.buymeacoffee.com/4s3ti"
+      url: "https://www.buymeacoffee.com/coolapso"
       icon: fa-solid fa-coffee
   footer:
     showVersion: true
@@ -99,7 +105,7 @@ params:
 #   topText:  ["Footer Top text"]
     bottomText: [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>", 
-      "with <a href=\"#\">Hello-friend-4s3ti</a>",
+      "with <a href=\"https://github.com/coolapso/hugo-theme-hello-4s3ti\">Hello-friend-4s3ti</a>",
     ]
     
 
@@ -112,7 +118,7 @@ menu:
   main:
     - identifier: "about"
       name: "Sobre"
-      url: "https://cv.4s3ti.net"
+      url: "#"
       weight: 2
 
     - identifier: "posts"
@@ -127,19 +133,19 @@ menu:
       name: "Projetos"
       url: "/projects"
 
-    - identifier: "PiVPN"
-      name: "PiVPN"
-      url: "https://pivpn.io"
+    - identifier: "Projeto 1"
+      name: "Projeto 1"
+      url: "#"
       parent: "projects"
-    - identifier: "short"
-      name: "Diminuir Links"
-      url: "https://s.4s3ti.net"
+    - identifier: "ferramenta 1"
+      name: "Ferramenta 1"
+      url: "#"
       parent: "tools"
-    - identifier: "whiteboard"
-      name: "Quadro Branco"
+    - identifier: "Ferramenta 2"
+      name: "Ferramenta 2"
       parent: "tools"
-      url: "https://wb.4s3ti.net"
-    - identifier: "PrivateBin"
-      name: "PrivateBin"
+      url: "#"
+    - identifier: "Ferramenta 3"
+      name: "Ferramenta 3"
       parent: "tools"
-      url: "httls://paste.4s3ti.net"
+      url: "#"

@@ -19,13 +19,14 @@
     {{if or (.Site.Params.footer.trademark) (.Site.Params.footer.author) (.Site.Params.footer.copyright) }}
         <div class="footer__inner">
             {{ if .Site.Params.footer.trademark }}<span>&copy;{{ now.Format "2006" }}</span>&nbsp;{{ end }}
-            {{ if .Site.Params.footer.author }}<span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>&nbsp;{{ end }}
+            {{ if .Site.Params.footer.author }}<span><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author.name }}</a></span>&nbsp;{{ end }}
             {{ if .Site.Params.footer.copyright }}<span>{{ .Site.Copyright| safeHTML }}</span>{{ end }}
         </div>
     {{ end }}
         <div class="footer__inner">
-          {{with .Site.Params.footer.bottomText}}
             <div class="footer__content">
+            {{ if .Site.Params.version }}<span>{{ .Site.Params.version }}</span>{{ end }}
+            {{with .Site.Params.footer.bottomText}}
                 {{ range . }}<span>{{ . | safeHTML}}</span>{{ end }} 
             </div>
           {{ end }}
