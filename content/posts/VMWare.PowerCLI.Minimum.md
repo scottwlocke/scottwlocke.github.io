@@ -34,7 +34,7 @@ Get-Module VMware.VimAutomation.Sdk -ListAvailable | ForEach-Object {
     }
 ```
 
-- **TODO:** #3 Loop through Required and Nested
+- #3 Loop through Required and Nested
 
 - Get-Module returns System.Management.Automation.PSModuleInfo instance(s) describing the specified module(s).
 
