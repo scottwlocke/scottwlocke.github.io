@@ -22,7 +22,7 @@ staticDir = ['assets']
 
   # Metadata mostly used in document's head
   description = "Scott W Locke"
-  keywords = "Scott W Locke, blog"
+  keywords = "blog"
   images = [""]
 
 [taxonomies]
