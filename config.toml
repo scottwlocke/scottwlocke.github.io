@@ -12,7 +12,8 @@ staticDir = ['assets']
   dateformNumTime = "2006-01-02 15:04"
 
   ShowBreadCrumbs = true
-
+  ShowShareButtons = true
+  
   # Subtitle for home
   homeSubtitle = "A simple blog"
 
