@@ -1,55 +1,52 @@
 baseURL = "https://scottwlocke.github.io/"
-title   = "Scott W Locke"
+title = "Scott W Locke"
 languageCode = "en-us"
 theme = "hugo-PaperMod"
 staticDir = ['assets']
 
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
 
-  ShowBreadCrumbs = true
-  ShowShareButtons = true
-  
-  # Subtitle for home
-  homeSubtitle = "A simple blog"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+ShowBreadCrumbs = true
+ShowShareButtons = true
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+# Subtitle for home
+homeSubtitle = "A simple blog"
 
-  # Metadata mostly used in document's head
-  description = "Scott W Locke"
-  keywords = ["Scott W Locke", "blog"]
-  images = [""]
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Metadata mostly used in document's head
+description = "Scott W Locke"
+keywords = ["Scott W Locke", "blog"]
+images = [""]
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+tag = "tags"
+series = "series"
 
 [languages]
-  [languages.en]
-    title = "Scott W Locke"
-    subtitle = "A simple blog"
-    keywords = ""
-    readOtherPosts = "Read other posts"
+[languages.en]
+title = "Scott W Locke"
+subtitle = "A simple blog"
+keywords = ""
+readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "logo"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en.params.logo]
+logoText = "logo"
+logoHomeLink = "/"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+# And you can even create generic menu
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
