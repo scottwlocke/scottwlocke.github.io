@@ -18,7 +18,7 @@ System Engineer, DevOps, PowerShell Developer
 ### Tech Experience
 
 - Windows Server Operating Systems
-  - Windows Server NT 3.51 to Windows 2022
+  - Windows Server NT 3.51 to Windows 2025
 
 - Linux Operating Systems
   - Debian Based - Ubuntu and other Derivaties
