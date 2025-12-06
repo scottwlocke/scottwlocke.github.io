@@ -44,7 +44,7 @@ System Engineer, DevOps, PowerShell Developer
 
 - CIS Compliance
 
-- Declaritive Administration
+- Declarative Administration
   - PowerShell DSC
   - Ansible
   - Puppet
